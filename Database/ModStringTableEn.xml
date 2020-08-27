@@ -10,7 +10,8 @@
 		
 	<LocalizedStrings>
 		
-	<GameDBLocalizedString>      <LocID>ADDON_MOD_ADDICT</LocID>                       <Text>Addiction & Substance Abuse Department</Text>  </GameDBLocalizedString>
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_ADDICT</LocID>                       
+	<Text>Addiction and Substance Abuse Department</Text>  </GameDBLocalizedString>
 	
 	</LocalizedStrings>
 	

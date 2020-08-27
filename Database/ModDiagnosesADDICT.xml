@@ -102,7 +102,6 @@
             <TreatmentRef>TRT_VIO_METH_ABUSE_REHAB</TreatmentRef>
             <TreatmentRef>TRT_ANXIOLYTICS</TreatmentRef>
             <TreatmentRef>TRT_TRANQUILIZERS</TreatmentRef>
-            <TreatmentRef>TRT_SLEEPING_DRUGS</TreatmentRef>
             <TreatmentRef>TRT_ANTIPSYCHOTICS</TreatmentRef>
             <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
 		</Treatments>
@@ -203,7 +202,7 @@
             <GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
                 <ProbabilityPercent>40</ProbabilityPercent>
-                <GameDBSymptomRef>SYM_VIO_INVOLUTARY_EYE_MOVEMENT</GameDBSymptomRef> 
+                <GameDBSymptomRef>SYM_VIO_INVOLUNTARY_EYE_MOVEMENT</GameDBSymptomRef> 
             </GameDBSymptomRules>
             <GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
@@ -242,7 +241,6 @@
             <TreatmentRef>TRT_VIO_ALCOHOL_ABUSE_REHAB</TreatmentRef>
             <TreatmentRef>TRT_ANXIOLYTICS</TreatmentRef>
             <TreatmentRef>TRT_TRANQUILIZERS</TreatmentRef>
-            <TreatmentRef>TRT_SLEEPING_DRUGS</TreatmentRef>
             <TreatmentRef>TRT_ANTIPSYCHOTICS</TreatmentRef>
             <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
             <TreatmentRef>TRT_STOMACHICS</TreatmentRef>

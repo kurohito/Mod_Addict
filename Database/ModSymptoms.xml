@@ -232,8 +232,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM9</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM9_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S9</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S9_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -259,8 +259,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM10</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM10_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S10</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S10_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
     
@@ -287,8 +287,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM11</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM11_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S11</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S11_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -315,8 +315,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM12</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM12_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S12_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -345,8 +345,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM13</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM13_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S13</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S13_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -371,8 +371,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM14</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM14_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S14</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S14_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -397,8 +397,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM15</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM15_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S15</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S15_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -424,8 +424,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM16</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM16_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S16</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S16_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 
@@ -451,8 +451,8 @@
         <IsMainSymptom>false</IsMainSymptom>
         <IconIndex>1317</IconIndex>
         
-        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM17</CustomIconBigAssetRef>
-        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM17_SMALL</CustomIconSmallAssetRef>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S17</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S17_SMALL</CustomIconSmallAssetRef>
         
     </GameDBSymptom>
 

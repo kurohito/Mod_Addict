@@ -16,7 +16,7 @@
         
         <Treatments>
             <TreatmentRef>TRT_VIO_METH_ABUSE_REHAB</TreatmentRef>
-            <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+            
         </Treatments>
         
         <ShameLevel>90</ShameLevel>
@@ -45,7 +45,7 @@
         </Examinations>
         
          <Treatments>
-            <TreatmentRef>TRT_VIO_EMERGENCY THIAMINE_INFUSION</TreatmentRef>
+            <TreatmentRef>TRT_VIO_EMERGENCY_THIAMINE_INFUSION</TreatmentRef>
         </Treatments>
         
         <ShameLevel>0</ShameLevel>
