@@ -10,7 +10,7 @@
 
 	<MinDoctorLevel>2</MinDoctorLevel>
 
-	<PatientGenerationWeight>50</PatientGenerationWeight>
+	<PatientGenerationWeight>100</PatientGenerationWeight>
 
 	<FirstDoctorSpecialization>SKILL_DOC_SPEC_ADDICT_THERAPY</FirstDoctorSpecialization>
 
