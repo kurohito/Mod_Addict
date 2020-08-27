@@ -1,0 +1,45 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_EXAMINATIONS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== EXAMINATIONS ================================================== -->
+			      			
+			<GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST</LocID>                 
+            <Text>Drug Test</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_DESCRIPTION</LocID>     
+            <Text>A blood drug test is performed by extracting blood from a vein to detect usage of illicit drugs.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</LocID>         
+            <Text>Psychological Assessment</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT_DESCRIPTION</LocID>     
+            <Text>A psychological assessment is designed to assess and diagnose various mental health conditions.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL</LocID>                 
+            <Text>Blood Alcohol Test</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_DESCRIPTION</LocID>     
+            <Text>A blood alcohol test measures the level of Alcohol in your blood.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT</LocID>                 
+            <Text>Neuropsychological Assessment</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT_DESCRIPTION</LocID>     <Text>A Neuropsychological assessment is designed to assess cognitive functioning. This method is used to examine the cognitive consequences of brain damage, brain disease, and severe mental illness.</Text>   
+            </GameDBLocalizedString>
+			
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

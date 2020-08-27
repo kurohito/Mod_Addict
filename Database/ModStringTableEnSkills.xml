@@ -1,0 +1,34 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_SKILLS">
+        
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Violet Unicorn</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+			<GameDBLocalizedString>	
+				<LocID>DPT_ADDICT</LocID>						
+				<Text>Addiction & Substance Abuse Department</Text>	
+			</GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+			<GameDBLocalizedString>	
+				<LocID>SKILL_DOC_SPEC_ADDICT_THERAPY</LocID>				
+				<Text>Addiction Therapy</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+				<LocID>SKILL_DOC_SPEC_ADDICT_THERAPY_DESCRIPTION</LocID>	
+				<Text>Adiction Therapy gives access to specialized procedures for detecting, diagnosing and treating various forms of substance induced and related conditions at the Addiction & Substance Abuse Department.</Text>	
+			</GameDBLocalizedString>
+			
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

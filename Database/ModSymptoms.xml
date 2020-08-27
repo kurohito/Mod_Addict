@@ -1,0 +1,486 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Addiction & Substance Abuse Mod by Violet Unicorn -->
+	
+	<!-- == INSOMNIA == -->
+    <GameDBSymptom ID="SYM_VIO_INSOM">                      
+        <DescriptionLocID>SYM_VIO_INSOM_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S1_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+    <!-- == DELUSIONS == -->
+    <GameDBSymptom ID="SYM_VIO_DELUSIONS">              
+        <DescriptionLocID>SYM_VIO_DELUSIONS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>    
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>   
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_ACCEPTANCE_THERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S2_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+   <!-- == MOOD SWINGS == -->
+    <GameDBSymptom ID="SYM_VIO_MOOD_SWINGS">                    
+        <DescriptionLocID>SYM_VIO_MOOD_SWINGS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S3</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S3_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+   <!-- == MOTILITY DISTURBANCES == -->
+    <GameDBSymptom ID="SYM_VIO_MOTILITY_DISTURBANCES">             
+        <DescriptionLocID>SYM_VIO_MOTILITY_DISTURBANCES_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_EEG</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_ACCEPTANCE_THERAPY</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S4</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S4_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == PSYCHOSIS == -->
+    <GameDBSymptom ID="SYM_VIO_PSYCHOSIS">             
+        <DescriptionLocID>SYM_VIO_PSYCHOSIS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+            <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
+        </Examinations>
+        
+         <Treatments>
+            <TreatmentRef>TRT_VIO_CLOZAPINE</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>60</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S5</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S5_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == DISORGANISED SPEECH == -->
+     <GameDBSymptom ID="SYM_VIO_DISORGANISED_SPEECH">             
+        <DescriptionLocID>SYM_VIO_DISORGANISED_SPEECH_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_ACCEPTANCE_THERAPY</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S6</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S6_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == DISORGANISED BEHAVIOUR == -->
+     <GameDBSymptom ID="SYM_VIO_DISORGANISED_BEHAVIOUR">             
+        <DescriptionLocID>SYM_VIO_DISORGANISED_BEHAVIOUR_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_NEUROLOGICAL_TESTING</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S7</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S7_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == HOSTILITIY == -->
+     <GameDBSymptom ID="SYM_VIO_HOSTILITIY">             
+        <DescriptionLocID>SYM_VIO_HOSTILITIY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_TRANQUILIZERS</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S8_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == ATAXIA == -->
+    <GameDBSymptom ID="SYM_VIO_ATAXIA">
+        <DescriptionLocID>SYM_VIO_ATAXIA_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM9</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM9_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == PROLONGED ALCOHOL ABUSE == -->
+    <GameDBSymptom ID="SYM_VIO_PROLONGED_ALCOHOL_ABUSE">
+        <DescriptionLocID>SYM_VIO_PROLONGED_ALCOHOL_ABUSE_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_BANANA_BAG</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+            <TreatmentRef>TRT_VIO_ALCOHOL_ABUSE_REHAB</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM10</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM10_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+    
+    <!-- == IMPAIRED MEMORY == -->
+    <GameDBSymptom ID="SYM_VIO_IMPAIRED_MEMORY">
+        <DescriptionLocID>SYM_VIO_IMPAIRED_MEMORY_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_EEG</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM11</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM11_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == NUMBNESS == -->
+    <GameDBSymptom ID="SYM_VIO_NUMBNESS">
+        <DescriptionLocID>SYM_VIO_NUMBNESS_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_EEG</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM12_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == PARTIAL PARALYSIS == -->
+    <GameDBSymptom ID="SYM_VIO_PARTIAL_PARALYSIS">
+        <DescriptionLocID>SYM_VIO_PARTIAL_PARALYSIS_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>IMOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_EEG</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef> 
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM13</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM13_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == INVOLUNTARY EYE MOVEMENT == -->
+    <GameDBSymptom ID="SYM_VIO_INVOLUNTARY_EYE_MOVEMENT">
+        <DescriptionLocID>SYM_VIO_INVOLUNTARY_EYE_MOVEMENT_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM14</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM14_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == OPHTHALMOPLEGIA == -->
+    <GameDBSymptom ID="SYM_VIO_OPHTHALMOPLEGIA">
+        <DescriptionLocID>SYM_VIO_OPHTHALMOPLEGIA_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_BASIC_VISUAL_TEST</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM15</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM15_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == WERNICKE ENCEPHALOPATHY == -->
+    <GameDBSymptom ID="SYM_VIO_WERNICKE_ENCEPHALOPATHY">
+        <DescriptionLocID>SYM_VIO_WERNICKE_ENCEPHALOPATHY_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_EMERGENCY_THIAMINE_INFUSION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM16</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM16_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == KORSAKOFF SYNDROME == -->
+    <GameDBSymptom ID="SYM_VIO_KORSAKOFF_SYNDROME">
+        <DescriptionLocID>SYM_VIO_KORSAKOFF_SYNDROME_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_EMERGENCY_THIAMINE_INFUSION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM17</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM17_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == SUICIDAL IDEATION == -->
+    <GameDBSymptom ID="SYM_VIO_SUICIDAL_IDEATION">             
+        <DescriptionLocID>SYM_VIO_SUICIDAL_IDEATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+       
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+            <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
+        </Treatments>
+      
+        <ShameLevel>90</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_S18</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_S18_SMALL</CustomIconSmallAssetRef>
+    
+    </GameDBSymptom>
+	
+</Database>

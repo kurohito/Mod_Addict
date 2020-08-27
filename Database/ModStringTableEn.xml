@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="ADDON_ADDICT">
+    
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>Violet Unicorn</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_ADDICT</LocID>                       <Text>Addiction & Substance Abuse Department</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

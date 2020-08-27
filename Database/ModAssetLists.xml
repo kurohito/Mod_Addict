@@ -1,0 +1,175 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Addiction & Substance Abuse Mod by Violet Unicorn -->
+
+<!-- ================================================== Decals ================================================== -->
+
+	<!-- Addiction & Substance Abuse Department Decals -->
+    <GameDBAsset ID="ASSET_TEX_ADDICT_DECALS">   					<Type>TEXTURE_OBJECTS</Type>   				  <File>MOD_ROOT/mod_decals_2048_atlas_addict.png</File> </GameDBAsset>
+
+
+<!-- ================================================== Skills ================================================== -->
+
+	<!-- Addiction & Substance Abuse Skill -->
+    <GameDBAsset ID="ASSET_ADDICT_ICON_SK">							<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_skill_icon.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_SK_DARK">						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_skill_icon_dark.png</File> </GameDBAsset>
+
+	
+<!-- ================================================== Department ================================================== -->
+
+	<!-- Addiction & Substance Abuse Department -->
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_00"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_00.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_01"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_02"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_03"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_04"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_05"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_DPT_ICON_06"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_dept_icon_06.png</File> </GameDBAsset>
+	
+<!-- ================================================== Diagnostics ================================================== -->
+
+	<!-- Substance-Induced Psychotic Disorder -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_DIAG1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_diag_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_DIAG1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_diag_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Wernicke-Korsakoff Syndrome -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_DIAG2"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_diag_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_DIAG2_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_diag_icon_02_small.png</File> </GameDBAsset>
+	
+
+
+<!-- ================================================== Examinations ================================================== -->
+
+	<!-- Drug Test -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_01.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Blood Alcohol Test -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM2"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_02.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM2_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- Psychological Assessment -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM3"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_03.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM3_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Neuropsychological Assessment -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM3"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_04.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM3_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_04_small.png</File> </GameDBAsset>
+	
+<!-- ================================================== Symptoms ================================================== -->
+
+	<!-- == INSOMNIA == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S1"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- == DELUSIONS == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S2"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- == MOOD SWINGS == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S3"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- == MOTILITY DISTURBANCES == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S4"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_04_small.png</File> </GameDBAsset>
+
+	<!-- == PSYCHOSIS == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S5"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_05_small.png</File> </GameDBAsset>
+
+	<!-- == DISORGANISED SPEECH == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S6"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S6_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_06_small.png</File> </GameDBAsset>
+
+	<!-- == DISORGANISED BEHAVIOUR == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S7"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_07_small.png</File> </GameDBAsset>
+
+	<!-- == HOSTILITIY == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S8"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S8_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_08_small.png</File> </GameDBAsset>
+
+	<!-- == ATAXIA == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S9"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_09.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_09_small.png</File> </GameDBAsset>
+
+	<!-- == PROLONGED ALCOHOL ABUSE == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S10"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_10_small.png</File> </GameDBAsset>
+
+	<!-- == IMPAIRED MEMORY == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S11"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_11.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_11_small.png</File> </GameDBAsset>
+
+	<!-- == NUMBNESS == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S12"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_12.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_12_small.png</File> </GameDBAsset>
+
+	<!-- == PARTIAL PARALYSIS == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S13"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_13.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S13_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_13_small.png</File> </GameDBAsset>
+
+	<!-- == INVOLUNTARY EYE MOVEMENT == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S14"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_14.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S14_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_14_small.png</File> </GameDBAsset>
+
+	<!-- == OPHTHALMOPLEGIA == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S15"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_15.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S15_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_15_small.png</File> </GameDBAsset>
+
+	<!-- == WERNICKE ENCEPHALOPATHY == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S16"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_16.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S16_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_16_small.png</File> </GameDBAsset>
+
+	<!-- == KORSAKOFF SYNDROME == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S17"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_17.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S17_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_17_small.png</File> </GameDBAsset>
+
+	<!-- == SUICIDAL IDEATION == -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S18"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_18.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_S18_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_icon_18_small.png</File> </GameDBAsset>
+	
+
+<!-- ================================================== Symptoms Main ================================================== -->
+
+	<!-- Prolonged Meth Abuse  -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_SM1"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_main_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_SM1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_main_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Thiamine Deficiency  -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_SM2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_main_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_SM2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_sym_main_icon_02_small.png</File> </GameDBAsset>
+
+<!-- ================================================== Treatments ================================================== -->
+
+	<!-- Clozapine  -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Acceptance and Commitment Therapy  -->  
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR2"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR2_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_02_small.png</File> </GameDBAsset>
+
+	<!--  Supportive Psychotherapy -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR3"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR3_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Emergency Thiamine Infusion -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR4"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR4_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_04_small.png</File> </GameDBAsset>
+
+	<!-- Banana Bag IV -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_05_small.png</File> </GameDBAsset>
+
+	<!-- Methamphetamine Rehabilitation -->  
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR2"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR2_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_06_small.png</File> </GameDBAsset>
+
+	<!--  Alcohol Abuse Rehabilitation -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR3"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR3_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_07_small.png</File> </GameDBAsset>
+
+
+</Database>

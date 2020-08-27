@@ -1,0 +1,37 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_DIAGNOSES">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Clinic ================================================== -->
+
+			<GameDBLocalizedString>	
+				<LocID>DIA_VIO_SUBSTANCE_ABUSE_PSYCHOTIC_DISORDER</LocID>								
+				<Text>Substance-Induced Psychotic Disorder</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+				<LocID>DIA_VIO_SUBSTANCE_ABUSE_PSYCHOTIC_DISORDER_DESCRIPTION</LocID>					
+				<Text>Substance-induced psychotic disorder is a condition that causes symptoms like hallucinations and delusions and that is triggered by misuse of drugs or alcohol. In most cases the psychosis is short-term.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	
+				<LocID>DIA_VIO_WERNICKE_KORSAKOFF_SYNDROME</LocID>							
+				<Text>Wernicke-Korsakoff Syndrome</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+				<LocID>DIA_VIO_WERNICKE_KORSAKOFF_SYNDROME_DESCRIPTION</LocID>			
+				<Text>Wernicke-Korsakoff syndrome (WKS) is a type of brain disorder caused by a lack of vitamin B-1, or thiamine. The syndrome is actually two separate conditions that can occur at the same time, Wernicke’s disease (WD) and Korsakoff syndrome.</Text>	
+			</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

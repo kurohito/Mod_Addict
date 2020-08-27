@@ -1,0 +1,61 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Addiction & Substance Abuse Mod by Violet Unicorn -->
+    
+	
+	 <GameDBSymptom ID="SYM_VIO_MN_PROLONGED_METH_ABUSE">
+        <DescriptionLocID>SYM_VIO_MN_PROLONGED_METH_ABUSE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_METH_ABUSE_REHAB</TreatmentRef>
+            <TreatmentRef>TRT_MOOD_STABILIZERS</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>90</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM1_SMALL</CustomIconSmallAssetRef>
+    
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_VIO_MN_THIAMINE_DEFICIENCY">             
+        <DescriptionLocID>SYM_VIO_MN_THIAMINE_DEFICIENCY_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+
+        <RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>          <!-- COMPLICATION-->
+        <RiskOfCollapseEndHours>8</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_FAINTING</CollapseSymptomRef>       <!-- COMPLICATION-->
+        
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+        </Examinations>
+        
+         <Treatments>
+            <TreatmentRef>TRT_VIO_EMERGENCY THIAMINE_INFUSION</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_SM2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_SM2_SMALL</CustomIconSmallAssetRef>
+    
+    </GameDBSymptom>
+
+
+</Database>

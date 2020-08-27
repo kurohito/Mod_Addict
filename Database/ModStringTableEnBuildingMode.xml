@@ -1,0 +1,35 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_BUILDING_MODE">
+
+        <LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<GameDBLocalizedString>	
+			<LocID>ROOM_TYPE_ADDICT_OFFICE</LocID>
+			<Text>Addiction Therapist Office</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	
+			<LocID>ROOM_TYPE_ADDICT_OFFICE_DESCRIPTION</LocID>				
+			<Text>The Addiction Therapist office is common diagnostic mental health department outpatient office. \n\nMin. Staff requirements: \n1x Addiction Therapist</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	
+			<LocID>OBJECT_DECAL_ADDICT_DPT</LocID>								
+			<Text>Addiction & Substance Abuse Department</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	
+			<LocID>OBJECT_DECAL_ADDICT_DESC</LocID>								
+			<Text>Wall decal</Text>	
+		</GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

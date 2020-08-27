@@ -1,0 +1,66 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_TREATMENTS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+			<!-- ================================================== TREATMENTS ================================================== -->
+			
+			<GameDBLocalizedString>	<LocID>TRT_VIO_CLOZAPINE</LocID>								
+			<Text>Clozapine</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_CLOZAPINE_DESCRIPTION</LocID>					
+			<Text>Clozapine is an atypical antipsychotic medication. It is mainly used for schizophrenia that does not improve following the use of other antipsychotic medications. In those with schizophrenia and schizoaffective disorder it may decrease the rate of suicidal behavior.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ACCEPTANCE_THERAPY</LocID>								
+			<Text>Acceptance and Commitment Therapy</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ACCEPTANCE_THERAPY_DESCRIPTION</LocID>					
+			<Text>Acceptance and Commitment Therapy develops psychological flexibility and is a form of behavioral therapy that combines mindfulness skills with the practice of self-acceptance.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</LocID>								
+			<Text>Supportive Psychotherapy</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY_DESCRIPTION</LocID>					
+			<Text>Supportive psychotherapy is a psychotherapeutic approach that integrates various schools to provide therapeutic support. It includes components from therapeutic schools such as psychodynamic, cognitive-behavioral, and interpersonal conceptual models and techniques.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_EMERGENCY_THIAMINE_INFUSION</LocID>								
+			<Text>Emergency Thiamine Infusion</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_EMERGENCY_THIAMINE_INFUSION_DESCRIPTION</LocID>					
+			<Text>Thiamine hydrochloride administered by IV.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_BANANA_BAG</LocID>								
+			<Text>Banana Bag IV</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_BANANA_BAG_DESCRIPTION</LocID>					
+			<Text>A banana bag (or rally pack) is a bag of IV fluids containing vitamins and minerals. The bags typically contain thiamine, folic acid, and magnesium sulfate, and are usually used to correct nutritional deficiencies or chemical imbalances in the human body. The solution has a yellow color, hence the term "banana bag".</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_METH_ABUSE_REHAB</LocID>								
+			<Text>Methamphetamine Rehabilitation</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_METH_ABUSE_REHAB_DESCRIPTION</LocID>					
+			<Text>Treating a methamphetamine addiction requires comprehensive courses of detoxification. Treatment involves hospitalisation in a Detox Ward and purging the physical presence of meth from users’ bodies and helping their bodies acclimatize to functioning without meth. Treatment also addresses the psychological damage done by meth, both in terms of rehabilitating the mind, and showing recovering users how they can function and grow in everyday life without the compulsion to seek out meth.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ALCOHOL_ABUSE_REHAB</LocID>								
+			<Text>Alcohol Abuse Rehabilitation</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ALCOHOL_ABUSE_REHAB_DESCRIPTION</LocID>					
+			<Text>Treating an alcohol addiction requires comprehensive courses of detoxification. Treatment involves hospitalisation in a Detox Ward and purging the physical presence of alcohol from users’ bodies and helping their bodies acclimatize to functioning without alcohol. Treatment also addresses the psychological damage done by drinking, both in terms of rehabilitating the mind, and showing recovering users how they can function and grow in everyday life without the compulsion to seek out alcohol.</Text>	
+			</GameDBLocalizedString>
+			
+			</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

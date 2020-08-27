@@ -1,0 +1,240 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_ADDICT_SYMPTOMS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== ADDICTION & SUBSTANCE ABUSE DEPARTMENT ================================================== -->
+
+			<!-- == INSOMNIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INSOM</LocID>							
+			<Text>Insomnia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INSOM_DESCRIPTION</LocID>				
+			<Text>Insomnia is a common sleep disorder that can make it hard to fall asleep, hard to stay asleep, or cause you to wake up too early and not be able to get back to sleep.</Text>	
+			</GameDBLocalizedString>
+
+
+			<!-- == DELUSIONS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DELUSIONS</LocID>						
+			<Text>Delusions</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DELUSIONS_DESCRIPTION</LocID>			
+			<Text>A belief or altered reality that is persistently held despite evidence or agreement to the contrary. Common delusions such as being followed, poisoned, deceived, conspired against, or loved from a distance. These delusions usually involve the misinterpretation of perceptions or experiences. In reality, however, the situations are either not true at all or highly exaggerated.</Text>	
+			</GameDBLocalizedString>
+
+
+			<!-- == MOOD SWINGS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOOD_SWINGS</LocID>							
+			<Text>Mood Swings</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOOD_SWINGS_DESCRIPTION</LocID>				
+			<Text>A mood swing is an extreme or rapid change in mood. Such mood swings can play a positive part in promoting problem solving and in producing flexible forward planning. However an indicator of an underlying disease when feelings become excessive, all-consuming and interfere with daily living.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == SUICIDAL IDEATION == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_SUICIDAL_IDEATION</LocID>						
+			<Text>Suicidal Ideation</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>
+			<LocID>SYM_VIO_SUICIDAL_IDEATION_DESCRIPTION</LocID>			
+			<Text>Thinking about or planning suicide.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == MOTILITY DISTURBANCES == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOTILITY_DISTURBANCES</LocID>							
+			<Text>Motility Disturbances</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOTILITY_DISTURBANCES_DESCRIPTION</LocID>				
+			<Text>Abnormal intestinal contractions, such as spasms and intestinal paralysis.</Text>
+			</GameDBLocalizedString>			
+
+			<!-- == PSYCHOSIS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PSYCHOSIS</LocID>							
+			<Text>Psychosis</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PSYCHOSIS_DESCRIPTION</LocID>				
+			<Text>Psychosis is a condition that affects the way the brain processes information. It causes a loss of touch with reality. Patients may see, hear, or believe things that aren't real. Psychosis is a symptom, not an illness. A mental or physical illness, substance abuse, or extreme stress or trauma can cause it.</Text>
+			</GameDBLocalizedString>
+
+			<!-- == DISORGANISED SPEECH == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORGANISED_SPEECH</LocID>							
+			<Text>Disorganised Speech</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORGANISED_SPEECH_DESCRIPTION</LocID>				
+			<Text>Disorganized speech typically arises from abnormal thought processes. A person engaging in disorganized speech might quickly jump from one unrelated topic to another, engage in incoherent “word salad,” repeat things another person says back to them, or appear to be speaking with nonexistent entities.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == DISORGANISED BEHAVIOUR == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORGANISED_BEHAVIOUR</LocID>					
+			<Text>Disorganised Behaviour</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORGANISED_BEHAVIOUR_DESCRIPTION</LocID>		
+			<Text>Disorganised behaviour includes bizarre or inappropriate behaviour, actions or gestures. Inappropriate (incongruous) affect involves exhibiting incorrect emotional responses for a given context.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == HOSTILITIY == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_HOSTILITIY</LocID>				
+			<Text>Hostility</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_HOSTILITIY_DESCRIPTION</LocID>	
+			<Text>Feelings of opposition, unkindness or unfriendliness toward something or someone. Hostility can be normal, and is only an indicator of underlying disease when feelings become excessive, all-consuming and interfere with daily living.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == ATAXIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_ATAXIA</LocID>						
+			<Text>Ataxia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_ATAXIA_DESCRIPTION</LocID>			
+			<Text>Impaired balance or coordination, can be due to damage to brain, nerves or muscles. Impaired coordination can have causes that aren't due to underlying disease. Examples include drug or alcohol intoxication.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == PROLONGED ALCOHOL ABUSE == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PROLONGED_ALCOHOL_ABUSE</LocID>						
+			<Text>Prolonged Alcohol Abuse</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PROLONGED_ALCOHOL_ABUSE_DESCRIPTION</LocID>			
+			<Text>Long-term prolonged alcohol abuse can cause serious health complications, affecting virtually every organ in the body, including the brain. Long-term prolonged alcohol abuse can also damage your emotional stability and mental health.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == IMPAIRED MEMORY == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_IMPAIRED_MEMORY</LocID>						
+			<Text>Impaired Memory</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_IMPARED_MEMORY_DESCRIPTION</LocID>			
+			<Text>Inability to remember events for a period of time, often due to brain injury, illness or the effects of drugs or alcohol.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == NUMBNESS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_NUMBNESS</LocID>						
+			<Text>Numbness</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_NUMBNESS_DESCRIPTION</LocID>			
+			<Text>Numbness is often caused by damage, irritation or compression of nerves. Numbness alone isn't usually associated with potentially life-threatening disorders, such as strokes or tumors.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == PARTIAL PARALYSIS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PARTIAL_PARALYSIS</LocID>						
+			<Text>Partial Paralysis</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PARTIAL_PARALYSIS_DESCRIPTION</LocID>			
+			<Text>Partial or incomplete paralysis is when you still have some feeling in, and possibly control over, your paralyzed muscles. This is sometimes called paresis.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == INVOLUNTARY EYE MOVEMENT == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INVOLUNTARY_EYE_MOVEMENT</LocID>						
+			<Text>Involuntary Eye Movement</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INVOLUNTARY_EYE_MOVEMENT_DESCRIPTION</LocID>			
+			<Text>Also known as Nystagmus. Nystagmus is a vision condition in which the eyes make repetitive, uncontrolled movements. These movements often result in reduced vision and depth perception and can affect balance and coordination. These involuntary eye movements can occur from side to side, up and down, or in a circular pattern.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == OPHTHALMOPLEGIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_OPHTHALMOPLEGIA</LocID>						
+			<Text>Ophthalmoplegia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_OPHTHALMOPLEGIA_DESCRIPTION</LocID>			
+			<Text>Ophthalmoplegia is the paralysis or weakness of the eye muscles. It can affect one or more of the six muscles that hold the eye in place and control its movement.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == WERNICKE ENCEPHALOPATHY == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_WERNICKE_ENCEPHALOPATHY</LocID>						
+			<Text>Wernicke Encephalopathy</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_WERNICKE_ENCEPHALOPATHY_DESCRIPTION</LocID>			
+			<Text>Wernicke Encephalopathy (WE) is an acute neurological condition characterized by a clinical triad of ophthalmoparesis with nystagmus, ataxia, and confusion. This is a life-threatening illness caused by thiamine deficiency, which primarily affects the peripheral and central nervous systems.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == KORSAKOFF SYNDROME == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_KORSAKOFF_SYNDROME</LocID>						
+			<Text>Korsakoff Syndrome</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_KORSAKOFF_SYNDROME_DESCRIPTION</LocID>			
+			<Text>Korsakoff syndrome is a chronic memory disorder caused by severe deficiency of thiamine (vitamin B-1). Korsakoff syndrome is most commonly caused by alcohol misuse, but certain other conditions also can cause the syndrome.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == PROLONGED_METH_ABUSE == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_PROLONGED_METH_ABUSE</LocID>						
+			<Text>Prolonged Methamphetamine Abuse</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_PROLONGED_METH_ABUSE_DESCRIPTION</LocID>			
+			<Text>Chronic methamphetamine abuse has devastating effects on the central nervous system and can cause irreversible harm, including: increased heart rate and blood pressure; damaged blood vessels in the brain that can cause strokes or an irregular heartbeat that can, in turn, cause cardiovascular collapse or death; and liver, kidney and lung damage. Users may suffer brain damage, including memory loss and an increasing inability to grasp abstract thoughts. Those who recover are usually subject to memory gaps and extreme mood swings.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == PROLONGED_METH_ABUSE == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_THIAMINE_DEFICIENCY</LocID>						
+			<Text>Thiamine (Vitamin B1) Deficiency</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_THIAMINE_DEFICIENCY_DESCRIPTION</LocID>			
+			<Text>A disease in which the body doesn't have enough vitamin B1 (thiamin). Thiamine Deficiency is usually caused by poor diet or alcoholism. Symptoms include loss of appetite, weakness, pain in the limbs, shortness of breath and swollen feet or legs.</Text>	
+			</GameDBLocalizedString>
+
+	
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>
