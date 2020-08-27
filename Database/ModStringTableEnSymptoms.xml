@@ -223,7 +223,7 @@
 			<Text>Chronic methamphetamine abuse has devastating effects on the central nervous system and can cause irreversible harm, including: increased heart rate and blood pressure; damaged blood vessels in the brain that can cause strokes or an irregular heartbeat that can, in turn, cause cardiovascular collapse or death; and liver, kidney and lung damage. Users may suffer brain damage, including memory loss and an increasing inability to grasp abstract thoughts. Those who recover are usually subject to memory gaps and extreme mood swings.</Text>	
 			</GameDBLocalizedString>
 
-			<!-- == PROLONGED_METH_ABUSE == -->
+			<!-- == THIAMINE DEFICIENCY == -->
 			<GameDBLocalizedString>	
 			<LocID>SYM_VIO_MN_THIAMINE_DEFICIENCY</LocID>						
 			<Text>Thiamine (Vitamin B1) Deficiency</Text>	
