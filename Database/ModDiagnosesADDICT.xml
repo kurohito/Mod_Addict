@@ -115,6 +115,7 @@
         <InsurancePayment>650</InsurancePayment>
         <Tags>
             <Tag>clinic</Tag>
+            <Tag>disease</Tag>
         </Tags>
     </GameDBMedicalCondition>
 	
@@ -255,6 +256,7 @@
         <InsurancePayment>850</InsurancePayment>
         <Tags>
             <Tag>clinic</Tag>
+            <Tag>disease</Tag>
         </Tags>
     </GameDBMedicalCondition>
 </Database>
