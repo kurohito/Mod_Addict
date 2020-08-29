@@ -113,6 +113,13 @@
 		
 	</RequiredRoomsHospitalization>
 
+	<MinStretchers>1</MinStretchers>
+
+        <MinHospitalizationDoctorsDay>3</MinHospitalizationDoctorsDay>
+        <MinHospitalizationDoctorNight>1</MinHospitalizationDoctorNight>
+        <MinHospitalizationNursesDay>3</MinHospitalizationNursesDay>
+        <MinHospitalizationNursesNight>1</MinHospitalizationNursesNight>
+
 
 <!-- ### Staff ### -->
 	<MinClinicnDoctorsDay>1</MinClinicnDoctorsDay>

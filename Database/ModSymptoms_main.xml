@@ -40,8 +40,8 @@
         
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
-            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
-            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
         </Examinations>
         
          <Treatments>
