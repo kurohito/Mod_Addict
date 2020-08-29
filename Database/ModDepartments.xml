@@ -8,9 +8,9 @@
 	<LockedByDefault>false</LockedByDefault>
 	<HospitalizationLockedByDefault>false</HospitalizationLockedByDefault>
 
-	<MinDoctorLevel>2</MinDoctorLevel>
+	<MinDoctorLevel>1</MinDoctorLevel>
 
-	<PatientGenerationWeight>100</PatientGenerationWeight>
+	<PatientGenerationWeight>50</PatientGenerationWeight>
 
 	<FirstDoctorSpecialization>SKILL_DOC_SPEC_ADDICT_THERAPY</FirstDoctorSpecialization>
 
@@ -76,8 +76,46 @@
 		</GameDBDepartmentRoomRequirement>
 	</SharedRoomsClinic>
 
-	<NoHospitalization>true</NoHospitalization>
+	<!--<NoHospitalization>true</NoHospitalization>-->
 	<HospitalizationWithoutSurgeons>true</HospitalizationWithoutSurgeons>
+
+	<!-- ### Hospitalisation ### -->
+	<RequiredRoomsHospitalization>
+		<GameDBDepartmentRoomRequirement>
+		<RoomDatabaseEntryRef>ROOM_TYPE_ON_CALL_ROOM</RoomDatabaseEntryRef>
+		<MinCount>1</MinCount>
+		<MaxCount>1</MaxCount>
+		</GameDBDepartmentRoomRequirement>
+
+		<GameDBDepartmentRoomRequirement>
+		<RoomDatabaseEntryRef>ROOM_TYPE_NURSES_STATION</RoomDatabaseEntryRef>
+		<MinCount>1</MinCount>
+		<MaxCount>1</MaxCount>
+		</GameDBDepartmentRoomRequirement>
+
+		<GameDBDepartmentRoomRequirement>
+		<RoomDatabaseEntryRef>ROOM_TYPE_INPATIENT_ADDICT_OFFICE</RoomDatabaseEntryRef>
+		<MinCount>1</MinCount>
+		<MaxCount>1</MaxCount>
+		</GameDBDepartmentRoomRequirement>
+
+		<GameDBDepartmentRoomRequirement>
+		<RoomDatabaseEntryRef>ROOM_TYPE_DETOX_WARD</RoomDatabaseEntryRef>
+		<MinCount>1</MinCount>
+		<MaxCount>1</MaxCount>
+		</GameDBDepartmentRoomRequirement>
+		
+		<GameDBDepartmentRoomRequirement>
+		<RoomDatabaseEntryRef>DLC_ROOM_TYPE_LOUNGE</RoomDatabaseEntryRef>
+		<MinCount>0</MinCount>
+		<MaxCount>1</MaxCount>
+		</GameDBDepartmentRoomRequirement>
+		
+	</RequiredRoomsHospitalization>
+
+
+<!-- ### Staff ### -->
+	<MinClinicnDoctorsDay>1</MinClinicnDoctorsDay>
 
 	<IconID>1902</IconID>
 

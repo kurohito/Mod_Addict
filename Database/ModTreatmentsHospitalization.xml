@@ -1,0 +1,41 @@
+<Database>
+
+    
+    <GameDBTreatment ID="TRT_HOSPITALIZATION_DETOX">
+        <AbbreviationLocID>TRT_HOSPITALIZATION_DETOX_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredRoomTags>
+                <Tag>hospitalization_normal</Tag>
+            </RequiredRoomTags>
+            
+            <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+            <HospitalizationLevel>NORMAL</HospitalizationLevel>
+        </Procedure>
+        <TreatmentType>HOSPITALIZATION</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1911</IconIndex>
+        <DurationHours>12</DurationHours>
+
+        <DepartmentNamingExceptions>
+            <DepartmentNamingException>
+                <DepartmentID>DPT_TRAUMATOLOGY_DEPARTMENT</DepartmentID>
+                <NameLocID>TRT_HOSPITALIZATION_BURN_CENTER</NameLocID>
+                <AbbreviationLocID>TRT_HOSPITALIZATION_BURN_CENTER_DESCRIPTION</AbbreviationLocID>
+                <IconIndex>1883</IconIndex>
+         <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR7</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR7_SMALL</CustomIconSmallAssetRef>
+            </DepartmentNamingException>
+        </DepartmentNamingExceptions>
+
+
+    </GameDBTreatment>
+
+    
+</Database>

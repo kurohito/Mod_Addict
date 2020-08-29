@@ -16,10 +16,30 @@
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>	
-			<LocID>ROOM_TYPE_ADDICT_OFFICE_DESCRIPTION</LocID>				
+			<LocID>ROOM_TYPE_ADDICT_OFFICE_DESC</LocID>				
 			<Text>The Addiction Therapist office is common diagnostic mental health department outpatient office. \n\nMin. Staff requirements: \n1x Addiction Therapist</Text>	
 		</GameDBLocalizedString>
 		
+		<GameDBLocalizedString>
+		<LocID>ROOM_TYPE_INPATIENT_ADDICT_OFFICE</LocID>                               
+		<Text>Inpatient Addiction Therapist Office</Text>   
+		</GameDBLocalizedString>
+            
+		<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_INPATIENT_ADDICT_OFFICE_DESC</LocID>                   
+		<Text>An Addiction Therapy Diagnostic unit at Addiction and Substance Abuse department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Addiction Therapist \n(Personnel based in On-call room)</Text>
+		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>
+		<LocID>ROOM_TYPE_DETOX_WARD</LocID>                               
+		<Text>Detox Ward</Text>   
+		</GameDBLocalizedString>
+            
+		<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_DETOX_WARD_DESC</LocID>                   
+		<Text>A Detox Ward at Addiction and Substance Abuse department provides a safe and monitored space for hospitalized patients to detox. \n\nMin. Staff requirements: \n1x Addiction Therapist \n(Personnel based in On-call room)</Text>
+		</GameDBLocalizedString>
+
 		<GameDBLocalizedString>	
 			<LocID>OBJECT_DECAL_ADDICT_DPT</LocID>								
 			<Text>Addiction and Substance Abuse Department</Text>	

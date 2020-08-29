@@ -14,7 +14,7 @@
 
 			<GameDBLocalizedString>	
 				<LocID>DIA_VIO_SUBSTANCE_ABUSE_PSYCHOTIC_DISORDER</LocID>								
-				<Text>Substance-Induced Psychotic Disorder</Text>	
+				<Text>Substance\nInduced Psychotic Disorder</Text>	
 			</GameDBLocalizedString>
 			
 			<GameDBLocalizedString>	
@@ -24,7 +24,7 @@
 
 			<GameDBLocalizedString>	
 				<LocID>DIA_VIO_WERNICKE_KORSAKOFF_SYNDROME</LocID>							
-				<Text>Wernicke-Korsakoff Syndrome</Text>	
+				<Text>Wernicke-Korsakoff \nSyndrome</Text>	
 			</GameDBLocalizedString>
 			
 			<GameDBLocalizedString>	

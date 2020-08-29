@@ -34,7 +34,7 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>	<LocID>TRT_VIO_EMERGENCY_THIAMINE_INFUSION</LocID>								
-			<Text>Emergency Thiamine Infusion</Text>	
+			<Text>Emergency Thiamine \nInfusion</Text>	
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_VIO_EMERGENCY_THIAMINE_INFUSION_DESCRIPTION</LocID>					
 			<Text>Thiamine hydrochloride administered by IV.</Text>	
@@ -48,19 +48,26 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>	<LocID>TRT_VIO_METH_ABUSE_REHAB</LocID>								
-			<Text>Methamphetamine Rehabilitation</Text>	
+			<Text>Rehabilitation</Text>	
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_VIO_METH_ABUSE_REHAB_DESCRIPTION</LocID>					
 			<Text>Treating a methamphetamine addiction requires comprehensive courses of detoxification. Treatment involves hospitalisation in a Detox Ward and purging the physical presence of meth from users’ bodies and helping their bodies acclimatize to functioning without meth. Treatment also addresses the psychological damage done by meth, both in terms of rehabilitating the mind, and showing recovering users how they can function and grow in everyday life without the compulsion to seek out meth.</Text>	
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>	<LocID>TRT_VIO_ALCOHOL_ABUSE_REHAB</LocID>								
-			<Text>Alcohol Abuse Rehabilitation</Text>	
+			<Text>Rehabilitation</Text>	
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>TRT_VIO_ALCOHOL_ABUSE_REHAB_DESCRIPTION</LocID>					
 			<Text>Treating an alcohol addiction requires comprehensive courses of detoxification. Treatment involves hospitalisation in a Detox Ward and purging the physical presence of alcohol from users’ bodies and helping their bodies acclimatize to functioning without alcohol. Treatment also addresses the psychological damage done by drinking, both in terms of rehabilitating the mind, and showing recovering users how they can function and grow in everyday life without the compulsion to seek out alcohol.</Text>	
 			</GameDBLocalizedString>
 			
+			<GameDBLocalizedString> <LocID>TRT_HOSPITALIZATION_DETOX</LocID>
+			<Text>Detox hospitalization </Text>  
+			</GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_HOSPITALIZATION_DETOX_DESC</LocID> 
+            <Text>Hospitalize the patient at a detox ward. \n\nRequired room: Detox ward</Text>  
+        	</GameDBLocalizedString>
+
 			</LocalizedStrings>
     </GameDBStringTable>
 </Database>

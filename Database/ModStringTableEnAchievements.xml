@@ -1,0 +1,21 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ACHIEVEMENTS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+    
+        <Contributors>
+          <Name>Oxymoron Games</Name>
+          <Name>Bo Kelly</Name>
+        </Contributors>
+    
+        <LocalizedStrings>
+            <GameDBLocalizedString> <LocID>ACHIEVEMENT_CURE_FIRST_ADDICT_PATIENT</LocID>               
+            <Text>Cure your first addiction and substance abuse department patient</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>ACHIEVEMENT_CURE_FIRST_ADDICT_PATIENT_DESCRIPTION</LocID>
+            <Text>Congratulations, you cured your first addiction and substance abuse department patient!</Text>  
+            </GameDBLocalizedString>
+
+            </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,11 @@
+<Database>
+
+<GameDBAchievement ID="ACHIEVEMENT_CURE_FIRST_ADDICT_PATIENT">
+        <PlatformValue>ACHIEVEMENT_CURE_FIRST_ADDICT_PATIENT</PlatformValue>
+        <StatisticRef>STAT_TREATED</StatisticRef>
+        <StatisticValue>1</StatisticValue>
+        <IconIndex>367</IconIndex>
+        <Hidden>false</Hidden>
+    </GameDBAchievement>
+
+</Database>

@@ -182,7 +182,7 @@
          <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR4</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR4_SMALL</CustomIconSmallAssetRef>
         <DurationHours>6</DurationHours>
-        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_DETOX</HospitalizationTreatmentRef>
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
@@ -230,7 +230,7 @@
          <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR5</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR5_SMALL</CustomIconSmallAssetRef>
         <DurationHours>0</DurationHours>
-        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_DETOX</HospitalizationTreatmentRef>
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
@@ -278,7 +278,7 @@
          <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR6</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR6_SMALL</CustomIconSmallAssetRef>
         <DurationHours>12</DurationHours>
-        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_DETOX</HospitalizationTreatmentRef>
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 
@@ -326,7 +326,7 @@
          <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR7</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR7_SMALL</CustomIconSmallAssetRef>
         <DurationHours>12</DurationHours>
-        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_DETOX</HospitalizationTreatmentRef>
         <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
     </GameDBTreatment>
 

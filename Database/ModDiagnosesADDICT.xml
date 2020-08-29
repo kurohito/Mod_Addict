@@ -7,7 +7,7 @@
         <AbbreviationLocID>DIA_VIO_SUBSTANCE_ABUSE_PSYCHOTIC_DISORDER_DESCRIPTION</AbbreviationLocID>
         <Duration>0</Duration>
 		
-        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <OccurrenceRef>OCCURRENCE_VIO_RARE</OccurrenceRef>
         <Symptoms>
 			<GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
@@ -122,7 +122,7 @@
     <GameDBMedicalCondition ID="DIA_VIO_WERNICKE_KORSAKOFF_SYNDROME">
         <AbbreviationLocID>DIA_VIO_WERNICKE_KORSAKOFF_SYNDROME_DESCRIPTION</AbbreviationLocID>
         <Duration>0</Duration>
-        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <OccurrenceRef>OCCURRENCE_VIO_COMMON</OccurrenceRef>
         <Symptoms> <!-- 8 -->
             <GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
