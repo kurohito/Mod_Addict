@@ -246,7 +246,7 @@
         <PatientMobility>MOBILE</PatientMobility>
         
         <Examinations>
-            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL</ExaminationRef>
+            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL_TEST</ExaminationRef>
         </Examinations>
         
         <Treatments>
@@ -326,7 +326,7 @@
         <DiscomfortLevel>High</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
         <Hazard>Low</Hazard>
-        <PatientMobility>IMOBILE</PatientMobility>
+        <PatientMobility>MOBILE</PatientMobility>
         
         <Examinations>
             <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
@@ -413,7 +413,7 @@
         <Examinations>
             <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
             <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
-            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST_TEST</ExaminationRef>
         </Examinations>
         
         <Treatments>
@@ -440,7 +440,7 @@
         <Examinations>
             <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
             <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
-            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST_TEST</ExaminationRef>
         </Examinations>
         
         <Treatments>

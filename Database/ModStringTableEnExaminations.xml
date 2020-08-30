@@ -12,11 +12,19 @@
 
 			<!-- ================================================== EXAMINATIONS ================================================== -->
 			      			
-			<GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST</LocID>                 
-            <Text>Drug Test</Text>   
+			<GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_TEST</LocID>                 
+            <Text>Drug Test - Testing</Text>   
             </GameDBLocalizedString>
 
-            <GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_DESCRIPTION</LocID>     
+            <GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_TEST_DESCRIPTION</LocID>     
+            <Text>A blood drug test is performed by extracting blood from a vein to detect usage of illicit drugs.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_SAMP</LocID>                 
+            <Text>Drug Test - Sampling</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_DRUG_TEST_SAMP_DESCRIPTION</LocID>     
             <Text>A blood drug test is performed by extracting blood from a vein to detect usage of illicit drugs.</Text>   
             </GameDBLocalizedString>
 
@@ -27,10 +35,17 @@
             <Text>A psychological assessment is designed to assess and diagnose various mental health conditions.</Text>   
             </GameDBLocalizedString>
 
-            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL</LocID>                 
-            <Text>Blood Alcohol Test</Text>   
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_TEST</LocID>                 
+            <Text>Blood Alcohol Test - Testing</Text>   
             </GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_DESCRIPTION</LocID>     
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_TEST_DESCRIPTION</LocID>     
+            <Text>A blood alcohol test measures the level of Alcohol in your blood.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_SAMP</LocID>                 
+            <Text>Blood Alcohol Test - Sampling</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_BLOOD_ALCOHOL_SAMP_DESCRIPTION</LocID>     
             <Text>A blood alcohol test measures the level of Alcohol in your blood.</Text>   
             </GameDBLocalizedString>
 

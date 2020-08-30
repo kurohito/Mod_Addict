@@ -2,10 +2,62 @@
 	<!-- ######################### -->
 	<!-- Addiction & Substance Abuse Mod by Violet Unicorn -->
 	
+
+    <!-- Drug Test (Sample) -->
+        <GameDBExamination ID="EXM_VIO_DRUG_TEST_SAMP">
+        <AbbreviationLocID>EXM_VIO_DRUG_TEST_SAMP_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_ADDICT_THERAPY</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+           <RequiredRoomTags>
+                <Tag>addict_office</Tag> 
+                <Tag>receipt</Tag>
+                <Tag>examinations_no_equipment</Tag>
+                <Tag>specialized_office</Tag>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_blood_sampling_in</AnimationNameIn>
+                <AnimationNameIdle>stand_blood_sampling_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_blood_sampling_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_examination_in</AnimationNameIn>
+                <AnimationNameIdle>stand_examination_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_examination_out</AnimationNameOut>
+            </AnimationSetupLying>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>true</Biohazard>
+            <Priority>20</Priority>
+        </Procedure>
+        <Cost>50</Cost>
+        <IconIndex>1715</IconIndex>
+        <DurationHours>0</DurationHours>
+                <CustomIconBigAssetRef>ASSET_ADDICT_ICON_EXAM1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM1_SMALL</CustomIconSmallAssetRef>
+        <LabTestingExaminationRef>EXM_VIO_DRUG_TEST_TEST</LabTestingExaminationRef>
+    </GameDBExamination>
 	    
-        <!-- Drug Test -->
-        <GameDBExamination ID="EXM_VIO_DRUG_TEST">
-        <AbbreviationLocID>EXM_VIO_DRUG_TEST_DESCRIPTION</AbbreviationLocID>
+        <!-- Drug Test (Test)-->
+        <GameDBExamination ID="EXM_VIO_DRUG_TEST_TEST">
+        <AbbreviationLocID>EXM_VIO_DRUG_TEST_TEST_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
@@ -52,9 +104,62 @@
     </GameDBExamination>
 
 
-    <!-- Blood Alcohol Test -->
-    <GameDBExamination ID="EXM_VIO_BLOOD_ALCOHOL">
-        <AbbreviationLocID>EXM_VIO_BLOOD_ALCOHOL_DESCRIPTION</AbbreviationLocID>
+    <!-- Blood Alcohol Test (Sample) -->
+        <GameDBExamination ID="EXM_VIO_BLOOD_ALCOHOL_SAMP">
+        <AbbreviationLocID>EXM_VIO_BLOOD_ALCOHOL_SAMP_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_ADDICT_THERAPY</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <RequiredRoomTags>
+                <Tag>addict_office</Tag> 
+                <Tag>receipt</Tag>
+                <Tag>examinations_no_equipment</Tag>
+                <Tag>specialized_office</Tag>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_blood_sampling_in</AnimationNameIn>
+                <AnimationNameIdle>stand_blood_sampling_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_blood_sampling_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_examination_in</AnimationNameIn>
+                <AnimationNameIdle>stand_examination_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_examination_out</AnimationNameOut>
+            </AnimationSetupLying>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>true</Biohazard>
+            <Priority>20</Priority>
+        </Procedure>
+        <Cost>50</Cost>
+        <IconIndex>1715</IconIndex>
+        <DurationHours>0</DurationHours>
+                <CustomIconBigAssetRef>ASSET_ADDICT_ICON_EXAM2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM2_SMALL</CustomIconSmallAssetRef>
+        <LabTestingExaminationRef>EXM_VIO_BLOOD_ALCOHOL_TEST</LabTestingExaminationRef>
+    </GameDBExamination>
+
+
+    <!-- Blood Alcohol Test (Test)-->
+    <GameDBExamination ID="EXM_VIO_BLOOD_ALCOHOL_TEST">
+        <AbbreviationLocID>EXM_VIO_BLOOD_ALCOHOL_TEST_DESCRIPTION</AbbreviationLocID>
         <DiscomfortLevel>None</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
@@ -120,6 +225,7 @@
                 <Tag>addict_office</Tag> 
                 <Tag>receipt</Tag>
                 <Tag>examinations_no_equipment</Tag>
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
             
             <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>
@@ -160,6 +266,7 @@
                 <Tag>addict_office</Tag> 
                 <Tag>receipt</Tag>
                 <Tag>examinations_no_equipment</Tag>
+                <Tag>examinations_basic_equipment</Tag>
             </RequiredRoomTags>
             
             <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>

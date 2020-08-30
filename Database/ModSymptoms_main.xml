@@ -11,7 +11,7 @@
         <PatientMobility>MOBILE</PatientMobility>
         
         <Examinations>
-            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST_TEST</ExaminationRef>
         </Examinations>
         
         <Treatments>
@@ -40,8 +40,8 @@
         
         <PatientMobility>MOBILE</PatientMobility>
         <Examinations>
-            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
-            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
         </Examinations>
         
          <Treatments>

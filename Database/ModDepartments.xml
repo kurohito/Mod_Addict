@@ -47,6 +47,19 @@
 		<MinCount>0</MinCount>
 		<MaxCount>1</MaxCount>
 		</GameDBDepartmentRoomRequirement>
+
+		<GameDBDepartmentRoomRequirement>
+        <RoomDatabaseEntryRef>DLC_ROOM_TYPE_PHARMACY</RoomDatabaseEntryRef>
+        <MinCount>0</MinCount>
+        <MaxCount>1</MaxCount>
+        </GameDBDepartmentRoomRequirement>
+
+        <GameDBDepartmentRoomRequirement>
+        <RoomDatabaseEntryRef>ROOM_TYPE_HEMATOLOGY_LAB</RoomDatabaseEntryRef>
+        <MinCount>1</MinCount>
+        <MaxCount>5</MaxCount>
+        </GameDBDepartmentRoomRequirement>
+
 	</RequiredRoomsClinic>
 
 <!-- ### Clinic Shared ### -->
@@ -78,6 +91,13 @@
 
 	<!--<NoHospitalization>true</NoHospitalization>-->
 	<HospitalizationWithoutSurgeons>true</HospitalizationWithoutSurgeons>
+
+	<NoSpecificStaffRequired>true</NoSpecificStaffRequired>
+
+	<TechnologistNameOverride>DLC_PHARMACOLOGIST_UI</TechnologistNameOverride>
+        <TechnologistIconOverride>2441</TechnologistIconOverride>
+        
+        <MinClinicnTechnologistDay>1</MinClinicnTechnologistDay>
 
 	<!-- ### Hospitalisation ### -->
 	<RequiredRoomsHospitalization>

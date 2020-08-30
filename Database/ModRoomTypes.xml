@@ -10,15 +10,26 @@
 	<AccessRights>PATIENT_PROCEDURE</AccessRights>
 
 	<RequiredEquipment>
-	<GameDBRequiredEquipment>    
-		<Tag>ui_sofa</Tag>
-		<MinCount>1</MinCount>
-	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_coffee_table</Tag>
+		<Tag>ui_pc</Tag>                  			
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_print</Tag>             			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_office_desk</Tag>          		
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_chair_office</Tag>          		
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
 		<Tag>ui_cabinets_equipment</Tag>
@@ -26,7 +37,12 @@
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_chair_def</Tag>
+		<Tag>ui_exam_table</Tag>          			
+		<MinCount>1</MinCount>    
+	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>ui_exam_lamp_def</Tag>       			
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
 
@@ -57,7 +73,7 @@
 
 	<GameDBRequiredEquipment>    
 		<Tag>ui_coffee_machine</Tag>
-		<MinCount>1</MinCount>    
+		<MinCount>0</MinCount>    
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
@@ -74,6 +90,12 @@
 		<Tag>ui_plants</Tag>
 		<MinCount>0</MinCount>    
 	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>whiteboard</Tag>          		    
+		<MinCount>0</MinCount>    
+	</GameDBRequiredEquipment>
+
 	</RequiredEquipment>
 
 	<AcceptsOutpatients>true</AcceptsOutpatients>
@@ -103,6 +125,7 @@
 		<Tag>emergency_doctors_office</Tag>
 		<Tag>receipt</Tag>
 		<Tag>any_office</Tag>
+		<Tag>addict_office</Tag>
 	</Tags>
         
 	<RequiredSkill>SKILL_DOC_SPEC_ADDICT_THERAPY</RequiredSkill>
@@ -119,18 +142,44 @@
 	<AccessRights>PATIENT_PROCEDURE</AccessRights>
 
 	<RequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>ui_pc</Tag>                  			
+		<MinCount>1</MinCount>    
+	</GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_print</Tag>             			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_office_desk</Tag>          		
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_chair_office</Tag>          		
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
 	<GameDBRequiredEquipment>    
 		<Tag>ui_cabinets_equipment</Tag>
 		<MinCount>1</MinCount>
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_exam_table</Tag>
+		<Tag>ui_exam_table</Tag>          			
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_exam_lamp_def</Tag> 
+		<Tag>ui_exam_lamp_def</Tag>       			
+		<MinCount>1</MinCount>    
+	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>ui_card_file</Tag>
 		<MinCount>1</MinCount>
 	</GameDBRequiredEquipment>
 
@@ -145,38 +194,38 @@
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_clean_hands</Tag>
-		<MinCount>1</MinCount>    
-	</GameDBRequiredEquipment>
-
-	<GameDBRequiredEquipment>    
 		<Tag>ui_eye_test</Tag>
-		<MinCount>1</MinCount>
-	</GameDBRequiredEquipment>
-
-	<GameDBRequiredEquipment>    
-		<Tag>ui_workstation</Tag>
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_card_file</Tag>
+		<Tag>ui_crp_scan</Tag>
 		<MinCount>1</MinCount>
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_audiometer</Tag>
-		<MinCount>1</MinCount>    
-	</GameDBRequiredEquipment>
-
-	<GameDBRequiredEquipment>    
-		<Tag>ui_stretcher</Tag> 
+		<Tag>ui_coffee_machine</Tag>
 		<MinCount>0</MinCount>    
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>whiteboard</Tag>
+		<Tag>ui_notice_board</Tag>
+		<MinCount>0</MinCount>    
+	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>ui_cabinets</Tag>
 		<MinCount>0</MinCount>
+	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>ui_plants</Tag>
+		<MinCount>0</MinCount>    
+	</GameDBRequiredEquipment>
+
+	<GameDBRequiredEquipment>    
+		<Tag>whiteboard</Tag>          		    
+		<MinCount>0</MinCount>    
 	</GameDBRequiredEquipment>
 
 	</RequiredEquipment>
@@ -204,6 +253,8 @@
 			<Tag>emergency_doctors_office</Tag>
             <Tag>receipt</Tag>
             <Tag>icu</Tag>
+            <Tag>addict_office</Tag>
+            <Tag>addict_inpatient_office</Tag>
         </Tags>
 
         <MinWidth>4</MinWidth>

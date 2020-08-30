@@ -84,15 +84,15 @@
         <Examinations>
 			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
-            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_EEG</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
             <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef> 
-            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST_SAMP</ExaminationRef>
             <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
-            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL</ExaminationRef>     
+            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL_SAMP</ExaminationRef>     
         </Examinations>
 
         <Treatments>
@@ -224,15 +224,15 @@
         <Examinations>
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_CBC_TESTING</ExaminationRef>
-            <ExaminationRef>EXM_SEROLOGY_TESTING_TESTING</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_EEG</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
             <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef> 
-            <ExaminationRef>EXM_VIO_DRUG_TEST</ExaminationRef>
+            <ExaminationRef>EXM_VIO_DRUG_TEST_SAMP</ExaminationRef>
             <ExaminationRef>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
-            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL</ExaminationRef>  
+            <ExaminationRef>EXM_VIO_BLOOD_ALCOHOL_SAMP</ExaminationRef>  
             <ExaminationRef>EXM_BASIC_VISUAL_TEST</ExaminationRef>     
         </Examinations>
         <Treatments>
