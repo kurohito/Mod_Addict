@@ -55,6 +55,10 @@
 	<!-- Neuropsychological Assessment -->
 	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM4"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_04.png</File> </GameDBAsset>			
 	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM4_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_04_small.png</File> </GameDBAsset>
+
+	<!-- Epworth Sleepiness Scale -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM5"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_05.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_ADDICT_ICON_EXAM5_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_exam_icon_05_small.png</File> </GameDBAsset>
 	
 <!-- ================================================== Symptoms ================================================== -->
 
@@ -170,6 +174,18 @@
 	<!--  Alcohol Abuse Rehabilitation -->
 	<GameDBAsset ID="ASSET_ADDICT_ICON_TR7"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_07.png</File> </GameDBAsset>
 	<GameDBAsset ID="ASSET_ADDICT_ICON_TR7_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_07_small.png</File> </GameDBAsset>
+
+	<!--  Bethanechol -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR8"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR8_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_08_small.png</File> </GameDBAsset>
+
+	<!--  Acetazolamide -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR9"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_09.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR9_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_09_small.png</File> </GameDBAsset>
+
+	<!--  Baclofen -->
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR10"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_ADDICT_ICON_TR10_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_10_small.png</File> </GameDBAsset>
 
 
 </Database>

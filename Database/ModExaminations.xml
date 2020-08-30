@@ -286,5 +286,45 @@
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM3_SMALL</CustomIconSmallAssetRef>
         <DurationHours>0</DurationHours>
     </GameDBExamination>
+
+    <!-- Epworth Sleepiness Scale -->
+    <GameDBExamination ID="EXM_VIO_EPWORTH_SLEEP_SCALE">
+        <AbbreviationLocID>EXM_VIO_EPWORTH_SLEEP_SCALE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_ADDICT_THERAPY</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <RequiredRoomTags>
+                <Tag>addict_office</Tag> 
+                <Tag>receipt</Tag>
+                <Tag>examinations_no_equipment</Tag>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_look_in</AnimationNameIn>
+                <AnimationNameIdle>stand_look_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_look_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>false</Biohazard>
+            <Priority>20</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1715</IconIndex>
+        <CustomIconBigAssetRef>ASSET_ADDICT_ICON_EXAM5</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM5_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0.1</DurationHours>
+    </GameDBExamination>
 	
 </Database>

@@ -68,6 +68,27 @@
             <Text>Hospitalize the patient at a detox ward. \n\nRequired room: Detox ward</Text>  
         	</GameDBLocalizedString>
 
+        	<GameDBLocalizedString>	<LocID>TRT_VIO_BETHANECHOL</LocID>								
+			<Text>Bethanechol</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_BETHANECHOL_DESCRIPTION</LocID>					
+			<Text>Bethanechol is used to treat certain bladder problems such as the inability to urinate or empty the bladder completely due to certain causes (e.g., surgery, bladder muscle problems). It works by helping the bladder muscle to squeeze better, thereby improving the ability to urinate. Bethanechol may also be used to treat heartburn. It works by helping the stomach muscles move food down out of the stomach faster and by increasing the strength of the muscle between the esophagus and stomach (lower esophageal sphincter). This helps prevent food/acid in the stomach from rising back into the esophagus.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ACETAZOLAMIDE</LocID>								
+			<Text>Acetazolamide</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_ACETAZOLAMIDE_DESCRIPTION</LocID>					
+			<Text>Acetazolamide is a medication used to treat glaucoma, epilepsy, altitude sickness, periodic paralysis, idiopathic intracranial hypertension (raised brain pressure of unclear cause), and heart failure.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_BACLOFEN</LocID>								
+			<Text>Baclofen</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_BACLOFEN_DESCRIPTION</LocID>					
+			<Text>Baclofen is used to treat muscle spasms caused by certain conditions (such as multiple sclerosis, involuntary eye movement, spinal cord injury/disease). It works by helping to relax the muscles.</Text>	
+			</GameDBLocalizedString>
+
 			</LocalizedStrings>
     </GameDBStringTable>
 </Database>
