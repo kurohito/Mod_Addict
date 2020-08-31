@@ -326,5 +326,51 @@
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM5_SMALL</CustomIconSmallAssetRef>
         <DurationHours>0.1</DurationHours>
     </GameDBExamination>
+
+    <GameDBExamination ID="EXM_VIO_BASIC_PSYCH_TEST">
+        <AbbreviationLocID>EXM_VIO_BASIC_PSYCH_TEST_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_ADDICT_THERAPY</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>rorschach_test</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            
+            <!--RequiredRoomTypeList>
+                <RequiredRoomTypeRef>ROOM_TYPE_DOCTORS_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_CARDIOLOGY_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_GENERAL_SURGERY_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</RequiredRoomTypeRef>
+            </RequiredRoomTypeList-->
+           
+            <RequiredRoomTags>
+                <Tag>addict_office</Tag> 
+                <Tag>receipt</Tag>
+                <Tag>examinations_no_equipment</Tag>
+                <Tag>specialized_office</Tag>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+            
+            <ProcedureScript>ProcedureScriptExaminationVisualTest</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameOut>stand_bookcase_take</AnimationNameOut>
+            </AnimationSetupSitting>         <!-- TODO make new animation-->
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>false</Biohazard>
+            <Priority>50</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1715</IconIndex>
+        <DurationHours>0</DurationHours>
+                <CustomIconBigAssetRef>ASSET_ADDICT_ICON_EXAM5</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_EXAM5_SMALL</CustomIconSmallAssetRef>
+    </GameDBExamination>
 	
 </Database>

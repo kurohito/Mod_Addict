@@ -187,5 +187,10 @@
 	<GameDBAsset ID="ASSET_ADDICT_ICON_TR10"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_10.png</File> </GameDBAsset>
 	<GameDBAsset ID="ASSET_ADDICT_ICON_TR10_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_tr_icon_10_small.png</File> </GameDBAsset>
 
+	<!-- ==================================================  Objects ================================================== -->
+
+	<GameDBAsset ID="ASSET_TEX_VIO_OBJECTS_SMALL">   					<Type>TEXTURE_OBJECTS</Type>   				  <File>MOD_ROOT/mod_objects_small_atlas_addict.png</File> </GameDBAsset>
+
+	 <GameDBAsset ID="ASSET_TEX_VIO_ADDICT_OBJ_ICON1">							<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_addict_obj_icon_01.png</File> </GameDBAsset>
 
 </Database>

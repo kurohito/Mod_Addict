@@ -60,6 +60,14 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>EXM_VIO_EPWORTH_SLEEP_SCALE_DESCRIPTION</LocID>     <Text>A validated questionnaire that is used to assess daytime sleepiness.</Text>   
             </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_BASIC_PSYCH_TEST</LocID>                 
+            <Text>Rorschach Test</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_BASIC_PSYCH_TEST_DESCRIPTION</LocID>     
+            <Text>The Rorschach test is a psychological test in which subjects' perceptions of inkblots are recorded and then analyzed using psychological interpretation, complex algorithms, or both. Some mental health professionals use this test to examine a person's personality characteristics and emotional functioning.</Text>   
+            </GameDBLocalizedString>
 			
         </LocalizedStrings>
     </GameDBStringTable>

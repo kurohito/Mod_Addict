@@ -59,27 +59,13 @@
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
-            <RequiredRoomTags>
+            <RequiredRoomTags> 
                 <Tag>receipt</Tag>
             </RequiredRoomTags>
-
-            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
-
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
-        <TreatmentType>PROCEDURE</TreatmentType>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
         <Cost>100</Cost>
         <IconIndex>1953</IconIndex>
         <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR2</CustomIconBigAssetRef>
@@ -110,27 +96,13 @@
                 </RequiredEquipment>
             </RequiredEquipmentList>
 
-            <RequiredRoomTags>
+            <RequiredRoomTags> 
                 <Tag>receipt</Tag>
             </RequiredRoomTags>
-
-            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
-
-            <AnimationSetupSitting>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupSitting>
-            <AnimationSetupLying>
-                <AnimationNameIn>stand_treatment_in</AnimationNameIn>
-                <AnimationNameIdle>stand_treatment_idle</AnimationNameIdle>
-                <AnimationNameOut>stand_treatment_out</AnimationNameOut>
-            </AnimationSetupLying>
-
-            <DressLevel>FULL</DressLevel>
-            <DressLevelAfter>FULL</DressLevelAfter>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
-        <TreatmentType>PROCEDURE</TreatmentType>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
         <Cost>100</Cost>
         <IconIndex>1953</IconIndex>
         <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR3</CustomIconBigAssetRef>
@@ -429,6 +401,49 @@
         <IconIndex>1883</IconIndex>
          <CustomIconBigAssetRef>ASSET_ADDICT_ICON_TR10</CustomIconBigAssetRef>
         <CustomIconSmallAssetRef>ASSET_ADDICT_ICON_TR10_SMALL</CustomIconSmallAssetRef>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+    <GameDBTreatment ID="TRT_ANTIPSYCHOTICS">
+        <AbbreviationLocID>TRT_ANTIPSYCHOTICS_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Positive</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_NEUROLOGY</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_ADDICT_THERAPY</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <!--RequiredRoomTypeList>
+                <RequiredRoomTypeRef>ROOM_TYPE_INTENSIVE_CARE_UNIT</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_NEUROLOGY_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_INTERNAL_MEDICINE_OFFICE</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_IM_OFFICE</RequiredRoomTypeRef>
+            </RequiredRoomTypeList-->
+            <RequiredRoomTags>
+                <Tag>icu</Tag>
+                <Tag>internal_medicine_office</Tag>
+                <Tag>neurology_office</Tag>
+                <Tag>addict_office</Tag>
+                <Tag>addict_inpatient_office</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>150</Cost>
+        <IconIndex>2013</IconIndex>
         <DurationHours>0</DurationHours>
     </GameDBTreatment>
 

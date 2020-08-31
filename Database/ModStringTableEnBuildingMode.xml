@@ -40,6 +40,16 @@
 		<Text>A Detox Ward at Addiction and Substance Abuse department provides a safe and monitored space for hospitalized patients to detox. \n\nMin. Staff requirements: \n1x Addiction Therapist \n(Personnel based in On-call room)</Text>
 		</GameDBLocalizedString>
 
+		<GameDBLocalizedString>
+		<LocID>ROOM_TYPE_HIGH_PRIORITY_DETOX_WARD</LocID>                               
+		<Text>High Priority Detox Ward</Text>   
+		</GameDBLocalizedString>
+            
+		<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_HIGH_PRIORITY_DETOX_WARD_DESC</LocID>                   
+		<Text>A High Priority Detox Ward at Addiction and Substance Abuse department provides a safe and monitored space for higher risk hospitalized patients to detox. \n\nMin. Staff requirements: \n1x Addiction Therapist \n(Personnel based in On-call room)</Text>
+		</GameDBLocalizedString>
+
 		<GameDBLocalizedString>	
 			<LocID>OBJECT_DECAL_ADDICT_DPT</LocID>								
 			<Text>Addiction and Substance Abuse Department</Text>	
@@ -49,6 +59,17 @@
 			<LocID>OBJECT_DECAL_ADDICT_DESC</LocID>								
 			<Text>Wall decal</Text>	
 		</GameDBLocalizedString>
+
+		<GameDBLocalizedString>      
+			<LocID>OBJECT_RORSCHACH_TEST</LocID>
+
+			<Text>Rorschach test</Text>  
+		</GameDBLocalizedString>
+
+        <GameDBLocalizedString>      
+        	<LocID>OBJECT_RORSCHACH_TEST_DESCRIPTION</LocID>                 
+        	<Text>Mandatory wall-mounted equipment for mental health offices.</Text>  
+        </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>

@@ -62,7 +62,7 @@
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_eye_test</Tag>
+		<Tag>ui_rorschach_test</Tag>
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
 
@@ -194,7 +194,7 @@
 	</GameDBRequiredEquipment>
 
 	<GameDBRequiredEquipment>    
-		<Tag>ui_eye_test</Tag>
+		<Tag>ui_rorschach_test</Tag>
 		<MinCount>1</MinCount>    
 	</GameDBRequiredEquipment>
 
@@ -302,5 +302,48 @@
         <MinWidth>4</MinWidth>
         <MinHeight>3</MinHeight>
     </GameDBRoomType>
+
+    <GameDBRoomType ID="ROOM_TYPE_HIGH_PRIORITY_DETOX_WARD"><!-- except Emergency, ICU, Cardiology -->
+        <AbbreviationLocID>ROOM_TYPE_HIGH_PRIORITY_DETOX_WARD_DESC</AbbreviationLocID>
+        <TextureID>371</TextureID>
+        <IconIndex>838</IconIndex>
+        <AccessRights>PATIENT</AccessRights>
+
+        <RequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_beds</Tag>        				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_life_monitor</Tag>        		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_night_stand</Tag>         		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_defibrillator</Tag>       		<MinCount>1</MinCount>   </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_bedsocket</Tag>       			<MinCount>0</MinCount>   </GameDBRequiredEquipment>
+        </RequiredEquipment>
+
+        <LockedByDefault>false</LockedByDefault>
+
+       <BuildingModeFilters>
+        	<Tag>ui_cabinets</Tag>
+        	<Tag>ui_chair_def</Tag>
+        	<Tag>ui_sofa</Tag>
+        	<Tag>ui_tv</Tag>
+        	<Tag>ui_mobile_cabinet</Tag>
+        	<Tag>ui_privacy_screens</Tag>
+        	<Tag>ui_oxygen_tank</Tag>
+        	<Tag>ui_bookcase</Tag>
+        </BuildingModeFilters>
+
+        <Tags>
+            <Tag>patient_lunch</Tag>
+            <Tag>patient_medicine</Tag>
+            <Tag>life_monitor</Tag>
+            <Tag>night_stand</Tag>
+            <Tag>hospitalization</Tag>
+            <Tag>hospitalization_high</Tag> <!-- for showing patient counts in low/high in management -->
+            <Tag>ward</Tag>
+            <Tag>receipt</Tag>
+        </Tags>
+
+        <MinWidth>4</MinWidth>
+        <MinHeight>3</MinHeight>
+    </GameDBRoomType>
+    
 
 </Database>

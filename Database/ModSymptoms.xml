@@ -315,7 +315,7 @@
         <DiscomfortLevel>High</DiscomfortLevel>
         <PatientComplains>true</PatientComplains>
         <Hazard>Low</Hazard>
-        <PatientMobility>MOBILE</PatientMobility>
+        <PatientMobility>IMOBILE</PatientMobility>
         
         <Examinations>
             <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef> 
