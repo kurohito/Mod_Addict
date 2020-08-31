@@ -1,0 +1,41 @@
+<Database>
+
+    <GameDBObject ID="OBJECT_RORSCHACH_TEST">
+        <AbbreviationLocID>OBJECT_RORSCHACH_TEST_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_VIO_OBJECTS_SMALL</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_64</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>0</TextureIDNW>
+        <TextureIDNE>1</TextureIDNE>
+        <TextureIDSE>2</TextureIDSE>
+        <TextureIDSW>3</TextureIDSW>
+        <CustomIconAssetRef>ASSET_TEX_VIO_ADDICT_OBJ_ICON1</CustomIconAssetRef>
+        <AccessPositions>
+            <AccessPosition>
+                <m_x>-1</m_x>
+                <m_y>0</m_y>
+            </AccessPosition>
+        </AccessPositions>
+
+        <UseOffsetXNW>-1.0</UseOffsetXNW>
+        
+        <AccessPositionsHaveToBeFree>true</AccessPositionsHaveToBeFree>
+
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <Placement>INDOORS</Placement>
+        <HeightOffset>1.5</HeightOffset>
+       
+        <UseAnimations>
+            <Animation>stand_eye_test</Animation>
+        </UseAnimations>
+
+        <Tags>
+            <Tag>rorschach_test</Tag>
+            <Tag>ui_equipment</Tag>
+            <Tag>ui_rorschach_test</Tag>
+        </Tags>
+        <Cost>49</Cost>
+    </GameDBObject>
+
+</Database>
